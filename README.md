@@ -1,35 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WhatsApp Web Clone
+You can start by logging into the app using your Google account and adding someone's emailId to start chatting 1-1. It shows the last active status of your contacts.
+The WhatsApp Web clone is project made using Next.JS with both client-side and server side rendering with Firebase auth and Google sign-in. 
+Also, checkout my [blog].
 
-## Getting Started
 
-First, run the development server:
+## Demo
 
-```bash
+https://whatsapp-clone-ruddy.vercel.app/
+
+
+![alt text](https://github.com/sanjeevpr/whatsapp-clone/blob/master/images/GIF.gif?raw=true)
+
+
+## Features
+- Google sign-in
+- Last active status
+
+
+## Tech
+- Next.JS
+- Firestore
+- Firebase Authentication
+- Styled Components
+- Vercel to deploy the app
+
+
+## Installation
+
+WhatsApp Web clone requires [Node.js](https://nodejs.org/) v10+ to run.
+
+Install the dependencies and devDependencies and start the server.
+
+```sh
+cd whatsapp-clone
+npm i
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For production build...
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+npm run build
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## License
 
-## Learn More
+MIT
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# whatsapp-clone
+   [blog]: <https://justanothertechblogger.blogspot.com/>
